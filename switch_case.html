@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Statement SWITCH CASE</title>
+    <style type="text/css">
+        body { background-color:orange;
+        text-align:center;
+        font-family:Garamond, Arial, Times New Roman;
+        }
+        input {text-align:center;
+        margin : 0px 10px 10px;
+        padding: 0px 10px 0px;}
+    
+        select {text-align:center;
+        margin: 0px 10px 5px;}
+    
+        p {
+        color:4e4e4e;
+        font-size:3.3em;
+        text-decoration:blink;
+        }
+    </style>    
+</head>
+<body>
+<script>
+ var bulan = prompt ("Silahkan masukkan pilihan (1-12) : ");
+ var teks = "";
+ switch (bulan){
+     case '1':
+         teks = "Bulan Januari";
+         break;
+     case '2':
+         teks = "Bulan Februari";
+         break;
+     case '3':
+         teks = "Bulan Maret";
+         break;
+    case '4':
+         teks = "Bulan April";
+         break;
+    case '5':
+         teks = "Bulan Mei";
+         break;
+    case '6':
+         teks = "Bulan Juni";
+         break;
+    case '7':
+         teks = "Bulan Juli";
+         break;
+    case '8':
+         teks = "Bulan Agustus";
+         break;
+    case '9':
+         teks = "Bulan September";
+         break;
+    case '10':
+         teks = "Bulan Oktober";
+         break;
+    case '11':
+         teks = "Bulan November";
+         break;
+    case '12':
+         teks = "Bulan Desember";
+         break;
+     default:
+         teks = "Bulan tidak terdeteksi";
+     }	
+     if(bulan == "") {
+         document.write("Pilihan anda salah!")
+     }else {
+         document.write("Bulan yang anda pilih adalah "+ teks +" </h2>");
+     }
+     
+ 
+
+</script>
+</body>
+</html>
