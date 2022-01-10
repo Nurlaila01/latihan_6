@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Statemen IF ELSE</title>
+    <style type="text/css">
+        body { background-color:orange;
+        text-align:center;
+        font-family:Garamond, Arial, Times New Roman;
+        }
+        input {text-align:center;
+        margin : 0px 10px 10px;
+        padding: 0px 10px 0px;}
+    
+        select {text-align:center;
+        margin: 0px 10px 5px;}
+    
+        p {
+        color:4e4e4e;
+        font-size:3.3em;
+        text-decoration:blink;
+        }
+    </style>    
+</head>
+<body>
+<script language = "JavaScript">
+  var nilai = prompt ("Silahkan masukkan nilai : ", 0);
+  if ((nilai >= 80)  && (nilai <=100 )) 
+  {
+  	document.write("<h2>Indeks nilai anda A</h2>");
+  }
+  else if ((nilai >=70 ) && (nilai <= 79)) 
+  {
+  	document.write("<h2>Indeks nilai anda B</h2>");
+  }
+  else if ((nilai >=60 ) && (nilai <= 69)) 
+  {
+  	document.write("<h2>Indeks nilai anda C</h2>");
+  }
+  else if ((nilai >=50 ) && (Nilai <= 59)) 
+  {
+  	document.write("<h2>Indeks nilai anda D</h2>");
+  }
+  else if ((nilai >=0 ) && (nilai <= 49)) 
+  {
+  	document.write("<h2>Indeks nilai anda E</h2>");
+  }
+  else{
+  	document.write("<h2>Nilai diluar jangkawan</h2>");
+  } 
+</script>
+</body>
+</html>
